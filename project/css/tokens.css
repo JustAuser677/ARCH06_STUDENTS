@@ -33,6 +33,15 @@
   --control-height: 2.75rem;
   --motion-fast: 160ms;
 
+
+  --color-paused: #5140a8;
+  --color-paused-bg: #f0edff;
+
+  --color-paused: #d0c6ff;
+  --color-paused-bg: #39305d;
+
+
+
   --color-danger-hover: #971d2a;
   --color-danger-ink: #ffffff;
   --color-switch-off: #adb7c6;

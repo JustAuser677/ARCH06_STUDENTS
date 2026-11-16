@@ -7,3 +7,9 @@
 @import url('./components.css') layer(components);
 @import url('./states.css') layer(states);
 @import url('./utilities.css') layer(utilities);
+
+@layer legacy.vendor-v2;
+
+@import url('./vendor-v2.css') layer(legacy.vendor-v2);
+
+@import url('./legacy.css') layer(legacy);

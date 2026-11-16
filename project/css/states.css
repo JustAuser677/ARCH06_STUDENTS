@@ -51,6 +51,28 @@
   transition: background-color 240ms, color 240ms;
 }
 
+
+.ui-tag--paused {
+  background: var(--color-paused-bg);
+  color: var(--color-paused);
+}
+
+.ui-alert--paused {
+  background: var(--color-paused-bg);
+  border-color: var(--color-paused);
+  color: var(--color-paused);
+}
+
+
+
+@container (max-width: 25rem) {
+  .ui-card > .ui-button {
+    align-self: stretch;
+    width: 100%;
+  }
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
