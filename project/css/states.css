@@ -1,0 +1,63 @@
+.ui-button:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.ui-button--primary:not(:disabled):hover {
+  background: var(--color-accent-hover);
+}
+
+.ui-button--secondary:not(:disabled):hover,
+.ui-button--ghost:not(:disabled):hover {
+  background: var(--color-surface-alt);
+}
+
+.ui-button--danger:not(:disabled):hover {
+  background: var(--color-danger-hover);
+}
+
+.ui-button:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.ui-button:not(:disabled):active {
+  transform: translateY(0);
+}
+
+.ui-button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+.ui-field:has(input[aria-invalid='true']) input {
+  border-color: var(--color-danger);
+  background: var(--color-danger-bg);
+}
+
+.ui-field:has(input[aria-invalid='true']) .ui-field__hint {
+  color: var(--color-danger);
+}
+
+.ui-switch input:focus-visible + .ui-switch__track {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.ui-switch:has(input:disabled) {
+  cursor: not-allowed;
+}
+
+.ui-alert {
+  transition: background-color 240ms, color 240ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto;
+    transition-duration: 0s;
+    animation-duration: 0s;
+    animation-iteration-count: 1;
+  }
+}

@@ -1,0 +1,13 @@
+.legacy-widget {
+  font-family: Georgia, serif;
+  border: 2px dashed #8492ac;
+}
+
+.legacy-widget .legacy-action {
+  border: 0;
+  border-radius: 0;
+  background: #243b6b;
+  color: white;
+  padding: .55rem .9rem;
+  font: inherit;
+}
